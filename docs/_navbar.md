@@ -1,5 +1,5 @@
 <!-- _navbar.md -->
-- [主页](/)
+* [主页](/)
 * [Python](?id=开始阅读)
     * [Python爬虫入门](md/Python/Python爬虫入门.md)
     * [Python-Scrapy](md/Python/Python-Scrapy.md)
