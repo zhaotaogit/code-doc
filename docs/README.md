@@ -29,8 +29,8 @@
 
 # Vue
 
-> - [Vue 学习笔记](md/Vue/Vue2学习笔记.md)
-> - [Vue 学习笔记](md/Vue/Vue3.md)
+> - [Vue2 学习笔记](md/Vue/Vue2学习笔记.md)
+> - [Vue3](md/Vue/Vue3.md)
 
 # Docker
 
