@@ -44,13 +44,13 @@ public class Jdbcdemo01 {
 
 mysql环境：
 
-![image-20220226203152761](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220226203152761.png)
+![image-20220226203152761](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220226203152761.png)
 
 
 
 执行结果：
 
-![image-20220226203242115](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220226203242115.png)
+![image-20220226203242115](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220226203242115.png)
 
 ## 2.DriverManager
 

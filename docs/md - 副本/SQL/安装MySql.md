@@ -2,17 +2,17 @@
 
 首先去官网下载安装包，这里下载的是压缩包：https://dev.mysql.com/downloads/mysql/
 
-![image-20211123225352387](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211123225352387.png)
+![image-20211123225352387](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211123225352387.png)
 
-![image-20211123225404726](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211123225404726.png)
+![image-20211123225404726](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211123225404726.png)
 
 将下载好的压缩包解压：
 
-![image-20211123225457070](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211123225457070.png)
+![image-20211123225457070](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211123225457070.png)
 
 创建一个my.ini文件，内容为：
 
-![image-20211123230034510](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211123230034510.png)
+![image-20211123230034510](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211123230034510.png)
 
 ```mysql
 [mysqld]
@@ -39,19 +39,19 @@ port=3306
 default-character-set=utf8
 ```
 
-![image-20211123225913321](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211123225913321.png)
+![image-20211123225913321](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211123225913321.png)
 
 配置环境变量
 
-![image-20211123231631119](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211123231631119.png)
+![image-20211123231631119](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211123231631119.png)
 
-![image-20211123231653347](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211123231653347.png)
+![image-20211123231653347](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211123231653347.png)
 
 CMD执行`mysqld --initialize --console`命令。
 
 执行过后找到A temporary password is generated for root@localhost: 这句，localhost后面就是自己的初始化密码。
 
-![image-20211123231806228](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211123231806228.png)
+![image-20211123231806228](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211123231806228.png)
 
 执行`mysqld --install`,要以管理员方式打开CMD，不然可能报错。
 

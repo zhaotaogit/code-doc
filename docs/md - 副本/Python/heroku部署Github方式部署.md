@@ -28,7 +28,7 @@ if __name__ == '__main__':
 
 ## 2.Heroku部署
 
-![image-20211121190224009](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211121190224009.png)
+![image-20211121190224009](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211121190224009.png)
 
-![image-20211121190249742](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211121190249742.png)
+![image-20211121190249742](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211121190249742.png)
 

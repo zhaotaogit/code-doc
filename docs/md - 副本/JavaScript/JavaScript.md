@@ -184,7 +184,7 @@ var x = "Bill"; // x 为字符串
 
 ### 1.简单数据类型
 
-<img src="https://gcore.jsdelivr.net/gh/zhaotaogit/images/JS基础学习/20210913182148.png"/>
+<img src="https://cdn.jsdelivr.net/gh/zhaotaogit/images/JS基础学习/20210913182148.png"/>
 
 #### 1.数字型
 
@@ -225,7 +225,7 @@ var num = 0xA;
 
   > 用来判断一个变量是否非数字类型
 
-  <img src="https://gcore.jsdelivr.net/gh/zhaotaogit/images/JS基础学习/20210913184112.png"/>
+  <img src="https://cdn.jsdelivr.net/gh/zhaotaogit/images/JS基础学习/20210913184112.png"/>
 
 ```js
 var usrAge = 21;
@@ -353,7 +353,7 @@ console.log(typeof num) // 结果 number
 
 不同类型的返回值
 
-<img src="https://gcore.jsdelivr.net/gh/zhaotaogit/images/JS基础学习/20210913213511.png"/>
+<img src="https://cdn.jsdelivr.net/gh/zhaotaogit/images/JS基础学习/20210913213511.png"/>
 
 ```js
 var num = 10;
@@ -396,7 +396,7 @@ console.log(typeof age);    // string
 
 #### 2.转为字符串
 
-<img src="https://gcore.jsdelivr.net/gh/zhaotaogit/images/JS基础学习/20210913220636.png"/>
+<img src="https://cdn.jsdelivr.net/gh/zhaotaogit/images/JS基础学习/20210913220636.png"/>
 
 - oString() 和 String() 使用方式不一样。 
 -  三种转换方式，我们更喜欢用第三种加号拼接字符串转换方式， 这一种方式也称之为隐式转换
@@ -415,7 +415,7 @@ console.log(typeof(str1));  // string
 
 #### 3.转换为数字型
 
-<img src="https://gcore.jsdelivr.net/gh/zhaotaogit/images/JS基础学习/20210913221613.png"/>
+<img src="https://cdn.jsdelivr.net/gh/zhaotaogit/images/JS基础学习/20210913221613.png"/>
 
 - parseInt 和 parseFloat 单词的大小写，这2个是重点 
 -  隐式转换是我们在进行算数运算的时候，JS 自动转换了数据类型
@@ -463,7 +463,7 @@ alert('两个值的和为：' +  (num1+num2)) ;
 
 #### 6.转换为布尔类型
 
-<img src="https://gcore.jsdelivr.net/gh/zhaotaogit/images/JS基础学习/20210913224441.png"/>
+<img src="https://cdn.jsdelivr.net/gh/zhaotaogit/images/JS基础学习/20210913224441.png"/>
 
 -  代表空、否定的值会被转换为 false ，如 ''、0、NaN、null、undefined  
 -  其余值都会被转换为 true

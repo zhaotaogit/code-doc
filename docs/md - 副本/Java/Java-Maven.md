@@ -8,25 +8,25 @@
 
 windowns的话下载图中箭头所指位置:
 
-![image-20220304212702482](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220304212702482.png)
+![image-20220304212702482](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220304212702482.png)
 
 下载完成后将压缩包解压到你想放的位置，比如D盘。	
 
-![image-20220304212809615](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220304212809615.png)
+![image-20220304212809615](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220304212809615.png)
 
 然后配置系统环境变量:
 
 先创建一个MAVEN_HOME：
 
-![image-20220304212914735](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220304212914735.png)
+![image-20220304212914735](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220304212914735.png)
 
 然后在系统变量的path中添加:
 
-![image-20220304212948176](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220304212948176.png)
+![image-20220304212948176](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220304212948176.png)
 
 最后测试一下是否安装成功:
 
-![image-20220304213009835](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220304213009835.png)
+![image-20220304213009835](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220304213009835.png)
 
 ## 2.修改仓库位置和配置阿里云镜像源
 
@@ -34,15 +34,15 @@ windowns的话下载图中箭头所指位置:
 
 打开maven安装目录下的conf/settings.xml文件:
 
-![image-20220304213113890](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220304213113890.png)
+![image-20220304213113890](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220304213113890.png)
 
 配置仓库：
 
-![image-20220304213140214](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220304213140214.png)
+![image-20220304213140214](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220304213140214.png)
 
 图中的D:/apache-maven-3.8.4/repository是仓库的地址，需要自己创建一个repository文件夹用来存放jar包。
 
-![image-20220304213247493](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220304213247493.png)
+![image-20220304213247493](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220304213247493.png)
 
 当你的maven项目需要jar包时，如果jar包不在repository中，就会下载，并存放在repository目录中。
 
@@ -69,13 +69,13 @@ windowns的话下载图中箭头所指位置:
 
 我们随便创建一个测试项目，目录结构如下:
 
-![image-20220304213638535](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220304213638535.png)
+![image-20220304213638535](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220304213638535.png)
 
-![image-20220304213658498](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220304213658498.png)
+![image-20220304213658498](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220304213658498.png)
 
 pom.xml文件内容为:
 
-![image-20220304214019132](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220304214019132.png)
+![image-20220304214019132](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220304214019132.png)
 
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
@@ -132,9 +132,9 @@ mvn compile	// 编译
 
 然后就会下载项目所需的jar包。
 
-![image-20220304213835483](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220304213835483.png)
+![image-20220304213835483](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220304213835483.png)
 
-![image-20220304213902768](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220304213902768.png)
+![image-20220304213902768](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220304213902768.png)
 
 出现BUILD SUCCESS即为编译成功！
 
@@ -144,7 +144,7 @@ mvn compile	// 编译
 mvn exec:java -Dexec.mainClass="com.xxx.demo.Hello"  // 执行main方法
 ```
 
-![image-20220304214447587](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220304214447587.png)
+![image-20220304214447587](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220304214447587.png)
 
 可以看到成功打印了Hello Maven!.
 
@@ -178,7 +178,7 @@ mvn [plugin-name]:[goal-name]
 
 进入Idea设置:
 
-![image-20220304220306155](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220304220306155.png)
+![image-20220304220306155](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220304220306155.png)
 
 搜索maven：
 
@@ -194,29 +194,29 @@ Maven主路径:maven解压的路径。
 
 打开Idea选择新建项目：
 
-![image-20220304220634850](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220304220634850.png)
+![image-20220304220634850](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220304220634850.png)
 
 选择java版本，以及选择模板:
 
-![image-20220304220725802](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220304220725802.png)
+![image-20220304220725802](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220304220725802.png)
 
 然后设置项目名称:
 
-![image-20220304220904990](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220304220904990.png)
+![image-20220304220904990](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220304220904990.png)
 
 然后选择Maven:
 
-![image-20220304220949213](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220304220949213.png)
+![image-20220304220949213](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220304220949213.png)
 
 然后项目就创建好了，idea会自动下载pom中所需的jar包。
 
 然后点击：
 
-![image-20220304222342365](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220304222342365.png)
+![image-20220304222342365](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220304222342365.png)
 
 点击+号，选择Maven：
 
-![image-20220304222405753](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220304222405753.png)
+![image-20220304222405753](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220304222405753.png)
 
 配置如图：
 

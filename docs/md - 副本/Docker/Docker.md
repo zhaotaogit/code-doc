@@ -26,7 +26,7 @@ DNS2=1.2.4.8
 
 ```
 
-![image-20211023155716216](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Docker/image-20211023155716216.png)
+![image-20211023155716216](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Docker/image-20211023155716216.png)
 
 ```shell
 # 重启网卡
@@ -52,7 +52,7 @@ Docker version 20.10.9, build c2ea9bc
 [root@localhost ~]# sudo docker run hello-world
 ```
 
-![image-20211023163223998](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Docker/image-20211023163223998.png)
+![image-20211023163223998](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Docker/image-20211023163223998.png)
 
 ## 3.Doker的启动与停止命令
 
@@ -76,7 +76,7 @@ Docker version 20.10.9, build c2ea9bc
 vim /etc/docker/daemon.json
 ```
 
-![image-20211023164554380](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Docker/image-20211023164554380.png)
+![image-20211023164554380](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Docker/image-20211023164554380.png)
 
 设置163和中国科技大学的镜像
 
@@ -554,7 +554,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.311-b11, mixed mode)
 
 ```
 
-![image-20211101180436025](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Docker/image-20211101180436025.png)
+![image-20211101180436025](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Docker/image-20211101180436025.png)
 
 3. **构建镜像**
 
@@ -609,7 +609,7 @@ Tomcat started.
 
 此时用一台电脑访问宿主机ip:8080即可看到如下界面：
 
-![image-20211101182522409](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Docker/image-20211101182522409.png)
+![image-20211101182522409](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Docker/image-20211101182522409.png)
 
 ### 2.Dockerfile作用
 
@@ -651,7 +651,7 @@ apache-tomcat-8.5.72.tar.gz  Dockerfile  jdk-8u311-linux-x64.tar.gz
 
 ```
 
-![image-20211110203555946](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Docker/image-20211110203555946.png)
+![image-20211110203555946](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Docker/image-20211110203555946.png)
 
 ### 3.利用Dockerfile构建镜像
 
@@ -716,7 +716,7 @@ CONTAINER ID   IMAGE        COMMAND                  CREATED         STATUS     
 # 接着直接在网页中访问ip:8080即可直接访问tomcat
 ```
 
-![image-20211110204650718](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Docker/image-20211110204650718.png)
+![image-20211110204650718](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Docker/image-20211110204650718.png)
 
 ## 9.Docker的备份恢复迁移
 
@@ -792,7 +792,7 @@ centos        7         eeb6ee3f44bd   8 weeks ago   204MB
 
 先去https://hub.docker.com/注册一个账号
 
-![image-20211113163804847](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Docker/image-20211113163804847.png)
+![image-20211113163804847](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Docker/image-20211113163804847.png)
 
 ### 2.登陆账号
 
@@ -843,7 +843,7 @@ e07ee1baac5f: Pushed
 
 接着可以到hub.docker.com登陆自己的账号查看是否上传成功:
 
-![image-20211113164236499](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Docker/image-20211113164236499.png)
+![image-20211113164236499](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Docker/image-20211113164236499.png)
 
 ### 4.尝试拉取自己上传的镜像
 
@@ -912,7 +912,7 @@ docker.io/library/registry:latest
 
 ### 2.修改配置文件
 
-![image-20211113165513474](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Docker/image-20211113165513474.png)
+![image-20211113165513474](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Docker/image-20211113165513474.png)
 
 ```shell
 [root@localhost ~]# vim /etc/docker/daemon.json
@@ -939,7 +939,7 @@ CONTAINER ID   IMAGE      COMMAND                  CREATED              STATUS  
 
 接着打开浏览器输入ip:5000/v2/_catalog看到：
 
-![image-20211113170311963](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Docker/image-20211113170311963.png)
+![image-20211113170311963](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Docker/image-20211113170311963.png)
 
 即代表成功！
 
@@ -957,7 +957,7 @@ e07ee1baac5f: Pushed
 
 刷新浏览器可以看到:
 
-![image-20211113170647521](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Docker/image-20211113170647521.png)
+![image-20211113170647521](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Docker/image-20211113170647521.png)
 
 ### 5.拉取私有仓库镜像
 
@@ -1163,7 +1163,7 @@ round-trip min/avg/max = 0.054/0.120/0.189 ms
 
 docker环境:
 
-![image-20211114143238251](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Docker/image-20211114143238251.png)
+![image-20211114143238251](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Docker/image-20211114143238251.png)
 
 docker镜像：redis
 

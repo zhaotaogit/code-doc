@@ -14,7 +14,7 @@
   System.out.println(Arrays.toString(splitAddress));
   ```
 
-<img src="https://gcore.jsdelivr.net/gh/zhaotaogit/images/Java%E4%B8%80%E4%BA%9B%E5%86%85%E7%BD%AE%E6%96%B9%E6%B3%95/image-20210531174727105.png"/>
+<img src="https://cdn.jsdelivr.net/gh/zhaotaogit/images/Java%E4%B8%80%E4%BA%9B%E5%86%85%E7%BD%AE%E6%96%B9%E6%B3%95/image-20210531174727105.png"/>
 
 > 实现按字符切分
 
@@ -43,7 +43,7 @@ while (token.hasMoreElements()) {
   System.out.println(s.substring(s.length()-1));  //提取最后一个字符
   ```
 
-<img src="https://gcore.jsdelivr.net/gh/zhaotaogit/images/Java%E4%B8%80%E4%BA%9B%E5%86%85%E7%BD%AE%E6%96%B9%E6%B3%95/image-20210531174818062.png"/>
+<img src="https://cdn.jsdelivr.net/gh/zhaotaogit/images/Java%E4%B8%80%E4%BA%9B%E5%86%85%E7%BD%AE%E6%96%B9%E6%B3%95/image-20210531174818062.png"/>
 
 > 实现根据下标取字符
 
@@ -56,7 +56,7 @@ String string[] = {"abc","def","igh"};
 System.out.println(Arrays.toString(string));
 ```
 
-<img src="https://gcore.jsdelivr.net/gh/zhaotaogit/images/Java%E4%B8%80%E4%BA%9B%E5%86%85%E7%BD%AE%E6%96%B9%E6%B3%95/image-20210531172051448.png"/>
+<img src="https://cdn.jsdelivr.net/gh/zhaotaogit/images/Java%E4%B8%80%E4%BA%9B%E5%86%85%E7%BD%AE%E6%96%B9%E6%B3%95/image-20210531172051448.png"/>
 
 > 如果想要把数组中的内容打印出来,直接调用toString()方法只会打印出数组的地址,因此需要使用Arrays的toString()方法。这个方法是是用来将数组转换成String类型输出的，入参可以是long，float，double，int，boolean，byte，object型的数组。
 
@@ -76,7 +76,7 @@ public static void main(String[] args) {
     }
 ```
 
-![image-20211120142953407](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211120142953407.png)
+![image-20211120142953407](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211120142953407.png)
 
 ### 4.String类的常用方法
 
@@ -120,7 +120,7 @@ public static void main(String[] args) {
     }
 ```
 
-![image-20211120144419520](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211120144419520.png)
+![image-20211120144419520](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211120144419520.png)
 
 - `public boolean startsWith(String prefix)`
 
@@ -165,7 +165,7 @@ public static void main(String[] args) {
     }
 ```
 
-![image-20211120145058922](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211120145058922.png)
+![image-20211120145058922](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211120145058922.png)
 
 - `public static String valueOf(基本数据类型参数)`
 
@@ -203,7 +203,7 @@ public static void main(String[] args) {
     }
 ```
 
-![image-20211120152703647](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211120152703647.png)
+![image-20211120152703647](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211120152703647.png)
 
 ### 5.StringBuffer的用法
 
@@ -276,7 +276,7 @@ public static void main(String[] args) {
     }
 ```
 
-![image-20211120153652422](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211120153652422.png)
+![image-20211120153652422](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211120153652422.png)
 
 除了 StringBuffer 以外，还存在另一个可变的字符串类 StringBuilder。StringBuilder 类是在 Java 5.0 中被提出的，它和 StringBuffer 之间的最大不同在于 StringBuilder 的方法是非线程安全的，而 StringBuffer 是线程安全的。
 
@@ -284,11 +284,11 @@ public static void main(String[] args) {
 
 StringBuffer 是一个内容可变的字符序列，或者说它是一个内容可变的字符串类型。当使用 `StringBuffer strB1 = new StringBuffer("柳海龙");`语句创建 StringBuffer 对象时，内存结构示意图如图所示。
 
-![](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/20211120160921.png)
+![](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/20211120160921.png)
 
 当使用`strB1.append("工程师")`方法时，将之前创建的 StringBuffer 对象的内容“柳海龙”修改成“柳海龙工程师”，内存结构示意图如图所示。
 
-![](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/20211120161011.png)
+![](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/20211120161011.png)
 
 ### 6.日期类
 
@@ -342,7 +342,7 @@ public static void main(String[] args) {
     }
 ```
 
-![image-20211120164148228](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211120164148228.png)
+![image-20211120164148228](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211120164148228.png)
 
 #### JDK8.0 提供的 Date 类
 
@@ -376,7 +376,7 @@ public class TestNewDate1 {
 }
 ```
 
-![image-20211120164649360](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211120164649360.png)
+![image-20211120164649360](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211120164649360.png)
 
 JDK8.0 中新提供的日期 API 也可以与 `Date` 类进行转换。当然，在转换时需要借助一些工具类:
 
@@ -399,7 +399,7 @@ public class TestNewDate2 {
 
 ```
 
-![image-20211120165939848](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211120165939848.png)
+![image-20211120165939848](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211120165939848.png)
 
 **SimpleDateFormat**
 
@@ -432,7 +432,7 @@ public class TestSimpleDateFormat1 {
 }
 ```
 
-![image-20211120170553252](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211120170553252.png)
+![image-20211120170553252](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211120170553252.png)
 
 除了将 Date 以固定格式的形式输出以外，SimpleDateFormat 还可以通过 `format` 方法，将某个固定格式的字符串转换为一个 Date 类型，详见以下程序。
 
@@ -453,7 +453,7 @@ public class TestSimpleDateFormat2 {
 }
 ```
 
-![image-20211120171031736](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211120171031736.png)
+![image-20211120171031736](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211120171031736.png)
 
 需要注意的是，待转换字符串`2020-06-11 17:00:00`的格式必须和 SimpleDateFormat 构造方法中参数的形式保持一致。
 
@@ -544,7 +544,7 @@ public class TestStudent {
 }
 ```
 
-![image-20211121130608150](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211121130608150.png)
+![image-20211121130608150](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211121130608150.png)
 
 这个程序虽然非常简单，但却是我们第一次使用两个类来完成程序。其中 `TestStudent` 类是测试类，测试类中包含 `main` 方法，提供程序运行的入口。在 `main` 方法内，创建 `Student` 类的对象并给对象属性赋值，然后调用对象的方法。
 
@@ -579,7 +579,7 @@ class Student2 {
 }
 ```
 
-![image-20211121131213212](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211121131213212.png)
+![image-20211121131213212](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211121131213212.png)
 
 在上面的例子中，对对象的属性都是先赋值后使用，如果没有赋值就直接使用对象的属性，会有什么样的结果呢？
 
@@ -605,7 +605,7 @@ public class TestStudent {
 }
 ```
 
-![image-20211121131510640](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211121131510640.png)
+![image-20211121131510640](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211121131510640.png)
 
 从程序运行结果可以看出，在未给对象属性赋值前使用属性时，属性使用的都是对应数据类型的默认值，即如果该属性为引用数据类型，其初始默认值为 null，如果该属性是 int 型，其初始默认值为 0。
 
@@ -701,9 +701,9 @@ class Student {
 }
 ```
 
-![image-20211121134200542](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211121134200542.png)
+![image-20211121134200542](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211121134200542.png)
 
-![image-20211121134217478](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211121134217478.png)
+![image-20211121134217478](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211121134217478.png)
 
 #### 2.初识封装
 
@@ -765,7 +765,7 @@ public class TestStudent3 {
 }
 ```
 
-![image-20211121135113210](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211121135113210.png)
+![image-20211121135113210](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211121135113210.png)
 
 实际上，使用 setter 和 getter 的解决方案用到了一个程序设计的基本原则：逻辑代码不能写在变量中，而必须写在方法或代码块中。
 
@@ -825,7 +825,7 @@ public class TestStudent1 {
 
 ```
 
-![image-20211121141633416](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211121141633416.png)
+![image-20211121141633416](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211121141633416.png)
 
 #### 4.this关键字
 
@@ -983,7 +983,7 @@ public class TestStudent4 {
 
 ```
 
-![image-20211121143637588](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211121143637588.png)
+![image-20211121143637588](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211121143637588.png)
 
 构造方法有一个约定：如果在定义类时没有定义构造方法，编译系统会自动插入一个无参数的默认构造方法，这个构造方法不执行任何代码。如果在定义类时定义了有参的构造方法，没有显式地定义无参的构造方法，那么在使用构造方法创建类对象时，则不能使用默认的无参构造方法。
 
@@ -993,7 +993,7 @@ public class TestStudent4 {
 
 对象的初始化，实际就是先在堆内存中申请一块用于存放对象属性值的空间，然后再给这些属性值赋上默认值、程序员期望的数据或者用户指定的数据。当堆内存中的这块空间有了值以后，再在栈空间中申请一块空间并存放引用变量，然后用栈中的引用变量指向堆中的对象，最终就可以通过栈中的引用变量访问或者修改堆中的对象了，如图所示。
 
-![图片描述](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/a52bd58b463cfe98caf9b39735b00a2a-0)
+![图片描述](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/a52bd58b463cfe98caf9b39735b00a2a-0)
 
 下面我们结合代码，分析对象初始化过程中内存演变的细节。
 
@@ -1052,11 +1052,11 @@ public class TestStudent5 {
 
 1. `Student2 temp= new Student2();`执行时，首先需要在堆内存中申请空间，用于存放对象的实例，这片空间上成员变量的值全部为默认值：name 的值是 null、age 的值是 0……，如图所示。
 
-![图片描述](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/3b1d455c641443828bc109ede4544c83-0)
+![图片描述](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/3b1d455c641443828bc109ede4544c83-0)
 
 1. 紧接着，执行声明初始化（由设计该类的开发者指定），例如在 `Student2` 类中`private int age = -1;`代表程序员希望 age 属性用值-1 覆盖默认值，如图所示。
 
-![图片描述](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/280c2be5a7e237b5ec4f52079256dcba-0)
+![图片描述](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/280c2be5a7e237b5ec4f52079256dcba-0)
 
 3.初始化块初始化。
 
@@ -1078,15 +1078,15 @@ public class TestStudent5 {
 }
 ```
 
-![图片描述](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/1b9536540928bd247b6911a4f0207daa-0)
+![图片描述](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/1b9536540928bd247b6911a4f0207daa-0)
 
 执行程序后，运行结果如图所示。大家可以通过运行结果，分析刚才说的初始化块的执行时机。
 
-![image-20211121151010497](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211121151010497.png)
+![image-20211121151010497](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211121151010497.png)
 
 1. 构造器初始化，例如`Student2 temp = new Student2("王云", 22, 1, 4);`，在默认初始化，声明初始化，初始化块之后，再此用构造器覆盖各个属性的值，如图所示。
 
-![图片描述](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/a1eadb542a26b2ff6252e679101ed970-0)
+![图片描述](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/a1eadb542a26b2ff6252e679101ed970-0)
 
 #### 6.重载基本语法
 
@@ -1175,7 +1175,7 @@ public class TestStudent6 {
 }
 ```
 
-![image-20211121152059252](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211121152059252.png)
+![image-20211121152059252](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211121152059252.png)
 
 #### 7.静态代码块、普通代码块、构造方法
 
@@ -1201,7 +1201,7 @@ public class TestStatic {
 
 ```
 
-![image-20211122191737657](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211122191737657.png)
+![image-20211122191737657](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211122191737657.png)
 
 ​		静态代码块只在类第一次创建对象的时候会执行，而且先于普通代码块和无参构造方法，再创建其他对象静态方法就不会再执行了。
 
@@ -1209,7 +1209,7 @@ public class TestStatic {
 
 #### 8.方法的重写
 
-![image-20211122193142973](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211122193142973.png)
+![image-20211122193142973](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211122193142973.png)
 
 > 父类有一个方法，子类重写了一编。
 
@@ -1241,7 +1241,7 @@ class Son extends Father {
 }
 ```
 
-![image-20211122192933830](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211122192933830.png)
+![image-20211122192933830](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211122192933830.png)
 
 ### 8.包和访问控制
 
@@ -1281,7 +1281,7 @@ package pkg1[．pkg2[．pkg3…]];
 
 JDK 类库中包含的众多类，就是使用包进行结构化分的。划分的形式就像在硬盘上嵌套有各级子目录一样，JDK 类库最高一级的包名是 `java` 和 `javax`，其下一级的包名有 `lang、util、net、io` 等，如图所示。
 
-![图片描述](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/4153921c13f383520961c4ec75449c0f-0)
+![图片描述](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/4153921c13f383520961c4ec75449c0f-0)
 
 下面简要介绍 JDK 类库中不同包的主要功能。
 
@@ -1344,7 +1344,7 @@ public class TestImport2 {
 
 这样就解决了，运行结果如下：
 
-![image-20211124171618364](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211124171618364.png)
+![image-20211124171618364](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211124171618364.png)
 
 **解决方法2**
 
@@ -1485,7 +1485,7 @@ class Stu {
 }
 ```
 
-![image-20211124184442089](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211124184442089.png)
+![image-20211124184442089](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211124184442089.png)
 
 通过程序运行结果可以看出，所有 `Student` 类的实例 wangYun 和 liuJT 都共用了静态变量 avgAge，当给其中任何一个实例的静态变量赋值时，都是对这一个静态变量进行操作。
 
@@ -1513,7 +1513,7 @@ class Student {
 }
 ```
 
-![image-20211124184726848](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211124184726848.png)
+![image-20211124184726848](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211124184726848.png)
 
 
 
@@ -1568,7 +1568,7 @@ public class Student1 {
 }
 ```
 
-![image-20211124194113514](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211124194113514.png)
+![image-20211124194113514](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211124194113514.png)
 
 静态变量和静态块都是在类实例化对象前被执行的，而且只执行一次。
 
@@ -1588,7 +1588,7 @@ public class Student1 {
 3. 饿汉式存在浪费资源的可能，因为如果程序员一个对象实例都没有使用，那么饿汉式创建的对象就浪费了，懒汉式是使用时才创建，就不存在问题。
 4. JavaSE标准类中，java.lang.Runtime就是经典的单例模式。
 
-![image-20211207175842979](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211207175842979.png)
+![image-20211207175842979](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211207175842979.png)
 
 ##### 1.饿汉式
 
@@ -1692,13 +1692,13 @@ class Cat {
 }
 ```
 
-![image-20211207175354111](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211207175354111.png)
+![image-20211207175354111](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211207175354111.png)
 
 ****
 
 单例模式是指：无论创建了多少个引用，在堆中仅仅只有一个实例对象，如图所示。
 
-![图片描述](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/16df97061e276bb817a8d92c968b40e7-0)
+![图片描述](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/16df97061e276bb817a8d92c968b40e7-0)
 
 实现单例模式的核心思路是将构造方法私有化，即使用 private 修饰构造方法，然后利用 static 成员变量的“一次性”，如下所示。
 
@@ -1744,7 +1744,7 @@ class TestSingleton {
 }
 ```
 
-![image-20211124194932634](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211124194932634.png)
+![image-20211124194932634](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211124194932634.png)
 
 证明只创建了一个Singleton对象。
 
@@ -1826,7 +1826,7 @@ class TestCar {
 }
 ```
 
-![image-20211125201109729](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211125201109729.png)
+![image-20211125201109729](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211125201109729.png)
 
 虽然 `Car` 类没有定义任何内容，但却可以使用父类 `Vehicle` 提供的属性和方法，这就是继承的作用。
 
@@ -1899,7 +1899,7 @@ public class TestZuChe3 {
 }
 ```
 
-![image-20211125201753877](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211125201753877.png)
+![image-20211125201753877](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211125201753877.png)
 
 通过上面的例子可知，当子类的某个行为特征与父类不同时，就可以通过重写来覆盖父类已有的方法。此外，子类也可以扩展父类的成员，即子类可以根据自身需求，额外的增加一些成员。
 
@@ -2038,7 +2038,7 @@ class Sub extends Sup {
 
 因为子类 `Sub` 和父类 `Sup` 都定义了 `info()`方法，因此在子类 `Sub` 的 `show()`中，如果直接编写 `info()`或 `this.info()`，调用的就是 `Sub` 中的 `info()`方法；如果编写的是 `super.info()`，那么就会调用父类 `Sup` 中的 `info()`方法。
 
-![image-20211125205457838](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211125205457838.png)
+![image-20211125205457838](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211125205457838.png)
 
 在使用 super 明确调用父类中的方法时，一种常见的做法是，通过 super 对父类中已有的方法进行补充，如下所示，在子类的 `info()`方法中，先通过 super 调用父类的 `info()`，然后再进行一些额外的代码补充。
 
@@ -2108,7 +2108,7 @@ class Sub1 extends Super {
 }
 ```
 
-![image-20211125210200078](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211125210200078.png)
+![image-20211125210200078](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211125210200078.png)
 
 通过运行结果可以看出，在第一次实例化子类时，先调用父类的静态块，再调用子类的静态块，之后再调用父类的非静态块和构造方法，再调用子类的非静态块和构造方法。这说明在第一次实例化某个类的对象时，该类的继承路径上的所有父类会被加载（伴随静态块被执行），然后是该类被加载。类加载完毕后，才可被实例化。接下来是，自上而下实例化，也就是说，即便没有显式实例化父类，父类也会实例化出对象。
 
@@ -2144,7 +2144,7 @@ public class TestZuChe4 {
 }
 ```
 
-![image-20211125212648338](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211125212648338.png)
+![image-20211125212648338](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211125212648338.png)
 
 在写 `Driver` 类的过程中，驾驶员获取车辆信息的功能用了两个重载方法，如果要获取轿车信息，则输入的是轿车对象（如`d1.callShow(car);`），方法体内调用轿车对象的方法；如果要获取卡车信息，则输入的是卡车对象（如`d1.callShow(truck); `），方法体内调用卡车对象的方法。如果需要从 `Vehicle` 类继承出十种车辆类型，则在 Driver 类中需要写十个方法。这样的做法过于繁琐！
 
@@ -2302,7 +2302,7 @@ public class Sub2 extends Super1{
 }
 ```
 
-![image-20211125221333172](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211125221333172.png)
+![image-20211125221333172](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211125221333172.png)
 
 程序运行的结果是 100，因为 Sub 对象自身拥有 i 属性，因此`sub.i`使用的就是 Sub 中的属性，这种情况通常也称为就近访问原则。将代码修改为以下内容。
 
@@ -2323,7 +2323,7 @@ public class Sub2 extends Super1{
 }
 ```
 
-![image-20211125221528336](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211125221528336.png)
+![image-20211125221528336](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211125221528336.png)
 
 
 
@@ -2372,7 +2372,7 @@ Java 也提供了一种特殊的方法，这个方法不是一个完整的方法
 
 现有 `Person` 类、`Chinese` 类和 `American` 类三个类，其中 `Person` 类为抽象类，含有 `eat()`和 `work()`两个抽象方法，其类关系如图所示。
 
-![图片描述](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/8c8a77289aeae2b83a03fba704e64506-0)
+![图片描述](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/8c8a77289aeae2b83a03fba704e64506-0)
 
 首先在终端输入以下命令创建一个 `Test.java` 文件。
 
@@ -2507,7 +2507,7 @@ class TestAbstract {
 }
 ```
 
-![image-20211127151834472](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211127151834472.png)
+![image-20211127151834472](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211127151834472.png)
 
 在上面例子的基础上，进一步了解抽象类的语法特征。
 
@@ -2644,7 +2644,7 @@ public class TestInterface {
 }
 ```
 
-![image-20211127153506184](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211127153506184.png)
+![image-20211127153506184](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211127153506184.png)
 
 再看另一个接口的例子。目前，电子邮件是人们广泛使用的一种信息沟通形式，要创建一封电子邮件，至少需要发信者邮箱、收信者邮箱、邮件主题和邮件内容 4 个部分。可以采用接口定义电子邮件的这些约定，让电子邮件类（实现类）必须实现这个接口，从而达到让电子邮件必须满足这些约定的要求。
 
@@ -2743,7 +2743,7 @@ public class TestInterface2 {
 }
 ```
 
-![image-20211127154809464](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211127154809464.png)
+![image-20211127154809464](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211127154809464.png)
 
 接下来了解接口的语法特征。
 
@@ -2771,7 +2771,7 @@ int sendPort = 25; // 等价于 public static final int sendPort = 25;
 
 运行 `TestInterface2` 类，程序运行结果如图所示:
 
-![image-20211127155549618](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211127155549618.png)
+![image-20211127155549618](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211127155549618.png)
 
 **一个类可以实现多个接口。**
 
@@ -2846,7 +2846,7 @@ public interface PortInterface {
     }
 ```
 
-![image-20211127160737302](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211127160737302.png)
+![image-20211127160737302](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211127160737302.png)
 
 **接口可以继承其他接口，实现接口合并的功能。**
 
@@ -2901,7 +2901,7 @@ email.writeEmail(input.next());
 
 在终端输入如下命令运行此程序，结果如下图所示。
 
-![image-20211127161010060](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211127161010060.png)
+![image-20211127161010060](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211127161010060.png)
 
 在接口的应用中，有一个非常典型的案例，就是实现打印机系统的功能。在打印机系统中，有打印机对象，有墨盒对象（可以是黑白墨盒，也可以是彩色墨盒），有纸张对象（可以是 A4 纸，也可以是 B5 纸）。怎么才能让打印机、墨盒和纸张等生产厂商生产的不同设备组装在一起成为打印机进行正常打印呢？解决的办法就是接口。
 
@@ -2999,7 +2999,7 @@ public class TestPrinter {
 }
 ```
 
-![image-20211127162612824](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211127162612824.png)
+![image-20211127162612824](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211127162612824.png)
 
 #### 3.内部类
 
@@ -3084,7 +3084,7 @@ public class OuterClass2 {
 
 静态成员可以通过类名直接调用，如 **类名.方法()**。与之类似，静态内部类中的方法也可以通过 **静态内部类名.方法()** 的形式调用
 
-![image-20211127163652386](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211127163652386.png)
+![image-20211127163652386](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211127163652386.png)
 
 如果测试类和静态内部类不在同一个`.java` 文件中，那么可以通过 **外部类名.静态内部类.方法()** 的形式调用。例如，如果将上述程序中的 `main()`移到其他类中，那么就可以通过`OuterClass2.InnerClass.testInner();`来调用静态内部类 `InnerClass` 中的 `testInner()`方法。
 
@@ -3121,7 +3121,7 @@ public class OuterClass3 {
 }
 ```
 
-![image-20211127164503205](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211127164503205.png)
+![image-20211127164503205](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211127164503205.png)
 
 #### 4.匿名内部类
 
@@ -3175,7 +3175,7 @@ abstract class Outer02 {
 }
 ```
 
-![image-20211204154022480](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211204154022480.png)
+![image-20211204154022480](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211204154022480.png)
 
 
 
@@ -3197,7 +3197,7 @@ public class OuterClass4 {
 }
 ```
 
-![image-20211127165014298](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211127165014298.png)
+![image-20211127165014298](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211127165014298.png)
 
 #### 5.小结
 
@@ -3339,7 +3339,7 @@ enum Season2 {
 
      
 
-![image-20211205135658923](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211205135658923.png)
+![image-20211205135658923](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211205135658923.png)
 
 2. ​	如果使用无参构造器创建枚举对象，则实参列表和小括号可以省略。
 
@@ -3359,7 +3359,7 @@ enum Season2 {
 
 #### 3.enum常用方法一览表
 
-![image-20211205141008796](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211205141008796.png)
+![image-20211205141008796](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211205141008796.png)
 
 ```java
 package Enum;
@@ -3390,7 +3390,7 @@ public class EnumMethod {
 }
 ```
 
-![image-20211205143446045](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211205143446045.png)
+![image-20211205143446045](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211205143446045.png)
 
 **练习**
 
@@ -3425,7 +3425,7 @@ enum Week {
 }
 ```
 
-![image-20211205143531658](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211205143531658.png)
+![image-20211205143531658](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211205143531658.png)
 
 **小结：**
 
@@ -3538,7 +3538,7 @@ class A {
 }
 ```
 
-![image-20211205164023320](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211205164023320.png)
+![image-20211205164023320](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211205164023320.png)
 
 可以看到使用被@Deprecated注解的元素在使用时会有个删除线。
 
@@ -3566,11 +3566,11 @@ public class SuppressWarnings_ {
 }
 ```
 
-![image-20211205164701770](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211205164701770.png)
+![image-20211205164701770](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211205164701770.png)
 
 可以看到当前有些代码被黄色方块包裹着，这是一种警告。如果不希望看到这个警告，可以用suppresswarnings来印制警告。
 
-![image-20211205165437430](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211205165437430.png)
+![image-20211205165437430](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211205165437430.png)
 
 | **关键字**               | **用途**                                                     |
 | ------------------------ | ------------------------------------------------------------ |
@@ -3669,7 +3669,7 @@ public class Exception01 {
 }
 ```
 
-![image-20211207180828327](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211207180828327.png)
+![image-20211207180828327](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211207180828327.png)
 
 #### 1.常见的运行时异常
 
@@ -3692,7 +3692,7 @@ public class Exception01 {
   }
   ```
 
-  ![image-20211207214956967](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211207214956967.png)
+  ![image-20211207214956967](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211207214956967.png)
 
 - ArithmeticException 数字运算异常
 
@@ -3716,7 +3716,7 @@ public class Exception01 {
   }
   ```
 
-  ![image-20211207180828327](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211207180828327.png)
+  ![image-20211207180828327](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211207180828327.png)
 
 - ArrayIndexOutOfBoundsException 数组下标越界异常
 
@@ -3737,7 +3737,7 @@ public class Exception01 {
   }
   ```
 
-  ![image-20211207215400754](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211207215400754.png)
+  ![image-20211207215400754](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211207215400754.png)
 
 - ClassCastException 类型转换异常
 
@@ -3764,7 +3764,7 @@ public class Exception01 {
   class C extends A{}
   ```
 
-  ![image-20211207215916827](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211207215916827.png)
+  ![image-20211207215916827](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211207215916827.png)
 
 - NumberFormatException 数字格式不正确异常[]
 
@@ -3791,7 +3791,7 @@ public class Exception01 {
   }
   ```
 
-  ![image-20211207220344917](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211207220344917.png)
+  ![image-20211207220344917](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211207220344917.png)
 
 #### 2.编译异常
 
@@ -3889,7 +3889,7 @@ class AgeException extends RuntimeException {
 }
 ```
 
-![image-20211208200511180](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211208200511180.png)
+![image-20211208200511180](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211208200511180.png)
 
 当age的值小于18或大于120时，就会抛出异常。
 
@@ -3937,7 +3937,7 @@ public class ReturnExceptionDemo {
 }
 ```
 
-![image-20211208202342075](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211208202342075.png)
+![image-20211208202342075](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211208202342075.png)
 
 ### 14.常用类
 
@@ -4410,7 +4410,7 @@ public class Date01 {
 }
 ```
 
-![image-20211213145813490](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211213145813490.png)
+![image-20211213145813490](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211213145813490.png)
 
 ##### 2.第二代日期类Calendar
 
@@ -4455,7 +4455,7 @@ public class Calendar_ {
 }
 ```
 
-![image-20211213151826907](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211213151826907.png)
+![image-20211213151826907](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211213151826907.png)
 
 ##### 3.第三代日期类
 
@@ -4616,11 +4616,11 @@ public class LocalDate_ {
 
 单列集合：
 
-![image-20211214174802556](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211214174802556.png)
+![image-20211214174802556](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211214174802556.png)
 
 双列集合
 
-![image-20211214174729610](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211214174729610.png)
+![image-20211214174729610](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211214174729610.png)
 
 #### 1.Collection接口和常用方法
 
@@ -5094,9 +5094,9 @@ public class ArrayListSource {
 
 **创建了一个空的elementData数组={}**
 
-![image-20211215201459712](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211215201459712.png)
+![image-20211215201459712](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211215201459712.png)
 
-![image-20211215201720450](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211215201720450.png)
+![image-20211215201720450](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211215201720450.png)
 
 执行list.add()
 
@@ -5104,20 +5104,20 @@ public class ArrayListSource {
 
 2. 然后再执行 赋值
 
-![image-20211215204028743](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211215204028743.png)
+![image-20211215204028743](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211215204028743.png)
 
 确定minCapacity
 
 1. 第一次扩容为10
 
-![image-20211215204045596](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211215204045596.png)
+![image-20211215204045596](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211215204045596.png)
 
 
 
 1. modCount++记录集合被修改的次数
 2. 如果elementData的大小不够，就扩容
 
-![image-20211215204409605](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211215204409605.png)
+![image-20211215204409605](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211215204409605.png)
 
 1. 使用扩容机制来确定要扩容到多少
 
@@ -5125,7 +5125,7 @@ public class ArrayListSource {
 3. 第二次及以后，按照1.5倍扩容
 4. 扩容使用的是Arrays.copyOf()
 
-![image-20211215212014528](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211215212014528.png)
+![image-20211215212014528](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211215212014528.png)
 
 #### 3.Vector类
 
@@ -5206,7 +5206,7 @@ public class ArrayListSource {
 
   2. HashSet实际上是HashMap
 
-     ![image-20211217200129222](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211217200129222.png)
+     ![image-20211217200129222](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211217200129222.png)
 
   3. 可以存放null值，但是只能有一个null
 

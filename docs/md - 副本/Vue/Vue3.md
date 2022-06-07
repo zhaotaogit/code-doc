@@ -81,7 +81,7 @@ vite官网：https://vitejs.cn
    - 真正的按需编译，不再等待整个应用编译完成。
 - 传统构建 与 vite构建对比图
 
-<img src="https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/202205051649122.png" style="width:500px;height:280px;float:left" /><img src="https://cn.vitejs.dev/assets/esm.3070012d.png" style="width:480px;height:280px" />
+<img src="https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/202205051649122.png" style="width:500px;height:280px;float:left" /><img src="https://cn.vitejs.dev/assets/esm.3070012d.png" style="width:480px;height:280px" />
 
 ```bash
 ## 创建工程
@@ -873,7 +873,7 @@ export default {
 
 ### 8.生命周期
 
-![](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/202205062309456.png)
+![](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/202205062309456.png)
 
 <img src="https://v3.cn.vuejs.org/images/lifecycle.svg" alt="lifecycle_2" style="zoom:33%;width:2500px" />
 
@@ -980,7 +980,7 @@ export default {
 </script>
 ```
 
-![image-20220507155847674](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/202205071558798.png)
+![image-20220507155847674](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/202205071558798.png)
 
 ### 10.toRef
 
@@ -1283,7 +1283,7 @@ export default {
 
 ### 5.provide 与 inject
 
-<img src="https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/202205072325541.png" style="width:300px" />
+<img src="https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/202205072325541.png" style="width:300px" />
 
 - 作用：实现<strong style="color:#DD5145">祖与后代组件间</strong>通信
 
@@ -1459,9 +1459,9 @@ export default {
 </style>
 ```
 
-![image-20220508000223413](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/202205080002517.png)
+![image-20220508000223413](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/202205080002517.png)
 
-![image-20220508000233241](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/202205080002358.png)
+![image-20220508000233241](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/202205080002358.png)
 
 ### 3.Suspense
 

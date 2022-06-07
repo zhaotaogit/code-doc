@@ -72,7 +72,7 @@ pip freeze > requirements.txt		# requirements.txt这个文件名可以自定义�
 pip list
 ```
 
-<img src="https://gcore.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210521215350134.png"/>
+<img src="https://cdn.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210521215350134.png"/>
 
 ### 3.批量导入别的虚拟环境中的所有模块
 
@@ -115,11 +115,11 @@ In folder /Python/Flask
  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 ```
 
-<img src="https://gcore.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210521211157142.png"/>
+<img src="https://cdn.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210521211157142.png"/>
 
 此时点击Running on http://127.0.0.1:5000会跳转到浏览器，浏览器显示即：
 
-<img src="https://gcore.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210521211507137.png"/>
+<img src="https://cdn.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210521211507137.png"/>
 
 和函数hello_world的返回结果是一样的。
 
@@ -154,7 +154,7 @@ if __name__ == '__main__':			# 判断__name__是否等于__main__
 
 1. 在项目文件夹下的templates创建一个index.html的文件，里面的内容为你想在网页里显示出来的内容。
 
-   <img src="https://gcore.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210521214247102.png"/>
+   <img src="https://cdn.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210521214247102.png"/>
 
    ```html
    <!DOCTYPE html>
@@ -207,7 +207,7 @@ if __name__ == '__main__':
 
 运行结果：
 
-<img src="https://gcore.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210521214541098.png"/>
+<img src="https://cdn.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210521214541098.png"/>
 
 ## 四.路由请求方式设置
 
@@ -215,17 +215,17 @@ if __name__ == '__main__':
 
 - 直接官网下载然后打开，打开软件直接跳过，登录的下方有skip字样，点击就可以进入下图界面。
 
-<img src="https://gcore.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210521221146651.png"/>
+<img src="https://cdn.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210521221146651.png"/>
 
 - 试用软件发送get请求，查看返回结果。
 
-<img src="https://gcore.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210521221926274.png"/>
+<img src="https://cdn.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210521221926274.png"/>
 
 发现结果是正确的。
 
 - 再用软件选择Post发送请求，查看返回结果。
 
-<img src="https://gcore.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210521221812412.png"/>
+<img src="https://cdn.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210521221812412.png"/>
 
 发现报了一个405的错误，即方法不允许，服务不支持post请求。
 
@@ -243,7 +243,7 @@ if __name__ == '__main__':
 
 修改完成之后，再次发送post请求：
 
-<img src="https://gcore.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210521222629321.png"/>
+<img src="https://cdn.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210521222629321.png"/>
 
 发现并没有报错，和Get请求返回的结果是相同的，说明网页支持了Post请求了。
 
@@ -283,7 +283,7 @@ if __name__ == '__main__':
 
 按F5刷新后的效果为:
 
-<img src="https://gcore.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210522113029492-1624169288185.png"/>
+<img src="https://cdn.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210522113029492-1624169288185.png"/>
 
 可以发现显示内容为order_id 666,即get_order_id(order_id)函数的返回结果一致。
 
@@ -313,7 +313,7 @@ if __name__ == '__main__':
     app.run()
 ```
 
-<img src="https://gcore.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210522113621709.png"/>
+<img src="https://cdn.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210522113621709.png"/>
 
 可以看到打印出了<class ‘str’>，说明函数的参数order_id默认是一个字符串形式。
 
@@ -412,7 +412,7 @@ HTML代码：
 
 运行结果:
 
-<img src="https://gcore.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210522120929878.png"/>
+<img src="https://cdn.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210522120929878.png"/>
 
 可以看到显示的是网页的内容。
 
@@ -452,7 +452,7 @@ def hello_world():
 
 运行结果：
 
-<img src="https://gcore.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210522121806802.png"/>
+<img src="https://cdn.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210522121806802.png"/>
 
 当我们修改代码中的url_str的值时，网页内容也会发生改变。
 
@@ -508,7 +508,7 @@ if __name__ == '__main__':
 
 运行结果:
 
-<img src="https://gcore.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210522123039086.png"/>
+<img src="https://cdn.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210522123039086.png"/>
 
 可以看到在py文件中定义的my_list变量被传到了模板中并显示了出来。
 
@@ -536,7 +536,7 @@ html代码：
 </html>
 ```
 
-<img src="https://gcore.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210522123248935.png"/>
+<img src="https://cdn.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210522123248935.png"/>
 
 发现多了一个5
 
@@ -597,7 +597,7 @@ html:
 
 运行结果:
 
-<img src="https://gcore.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210522123853400.png"/>
+<img src="https://cdn.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210522123853400.png"/>
 
 发现字典也可以被正确的传递进来，还可以利用键取出值的方式。
 
@@ -638,7 +638,7 @@ html:
 
 再运行程序，发现网页依次打印出了my_list中的元素
 
-<img src="https://gcore.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210522125242127.png"/>
+<img src="https://cdn.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210522125242127.png"/>
 
 ### 2.if语句
 
@@ -654,7 +654,7 @@ html:
 
 再运行程序，发现网页中只打印出了my_list中大于3的元素
 
-<img src="https://gcore.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210522125226237.png"/>
+<img src="https://cdn.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210522125226237.png"/>
 
 ##  九、过滤器->叫转换器更好理解
 
@@ -995,7 +995,7 @@ get_flashed_messages()是一个函数，用于捕捉消息。
 
 程序运行后当输入参数不正确会在网页给予提示，如图：
 
-<img src="https://gcore.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210522153138471.png"/>
+<img src="https://cdn.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210522153138471.png"/>
 
 ### 3.使用Flask_WTF实现表单
 
@@ -1298,7 +1298,7 @@ select * from roles;		# 查询某个表中所有数据
 
 然后再运行python代码，在mysql中执行show tables;代码效果如图：
 
-<img src="https://gcore.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210524171951262.png"/>
+<img src="https://cdn.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210524171951262.png"/>
 
 可以发现mysql中成功创建了两个表。
 
@@ -1317,7 +1317,7 @@ db.session.commit()			#提交数据库的修改(包括增/删/改)
 
 然后再mysql中执行select * from roles*,结果如图:
 
-<img src="https://gcore.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210524173231779.png"/>
+<img src="https://cdn.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210524173231779.png"/>
 
 可以发现在roles表中已经添加了一条数据。
 
@@ -1337,7 +1337,7 @@ select * from users		# 查询users表
 
 结果：
 
-<img src="https://gcore.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210524174008843.png"/>
+<img src="https://cdn.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210524174008843.png"/>
 
 成功添加了一条数据；
 
@@ -1361,7 +1361,7 @@ user.name = 'chengxuyuan'		# 将user对象的name改成‘chengxuyuan'
 db.session.commit()			# 直接提交，不需要add
 ```
 
-<img src="https://gcore.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210524174812523.png"/>
+<img src="https://cdn.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210524174812523.png"/>
 
 ### 4.删除数据表的中数据
 
@@ -1370,7 +1370,7 @@ db.session.delete(user)			# 将user对象的name从数据表中删除
 db.session.commit()			# 直接提交
 ```
 
-<img src="https://gcore.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210524174847453.png"/>
+<img src="https://cdn.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210524174847453.png"/>
 
 #### 5.**汇总**
 
@@ -1544,7 +1544,7 @@ user2.role
 
 重新运行程序，查看数据表中有没有新增数据:
 
-<img src="https://gcore.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210525172150895.png"/>
+<img src="https://cdn.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210525172150895.png"/>
 
 正确运行后的结果如上图。
 
@@ -1570,15 +1570,15 @@ filter功能更强大，可以实现更多的一些查询，支持比较运算�
 
 **上述结果如下图:**
 
-<img src="https://gcore.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210525175554685-1624169534725.png"/>
+<img src="https://cdn.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210525175554685-1624169534725.png"/>
 
 
 
-<img src="https://gcore.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210525174147252.png"/>
+<img src="https://cdn.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210525174147252.png"/>
 
-<img src="https://gcore.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210525175615214.png"/>
+<img src="https://cdn.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210525175615214.png"/>
 
-<img src="https://gcore.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210525180057263.png"/>
+<img src="https://cdn.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210525180057263.png"/>
 
 ## 十三、综合案例-图书管理-完结篇
 
@@ -1848,7 +1848,7 @@ html:
 
 运行结果：
 
-<img src="https://gcore.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210526203705733.png"/>
+<img src="https://cdn.jsdelivr.net/gh/zhaotaogit/images/Flask%E5%85%A5%E9%97%A8/image-20210526203705733.png"/>
 
 功能描述：
 

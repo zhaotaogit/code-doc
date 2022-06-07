@@ -64,11 +64,11 @@
 </html>
 ```
 
-![CPT2204232016-152x28](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/202204232017246.gif)
+![CPT2204232016-152x28](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/202204232017246.gif)
 
 ### 2.分析生命周期
 
-![生命周期.png](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/202204232036425.png)
+![生命周期.png](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/202204232036425.png)
 
 ```html
 <!DOCTYPE html>
@@ -236,9 +236,9 @@
 组件化
 	当应用中的功能都是多组件的方式来编写的，那这个应用就是一个组件化的应用
 
-![image.png](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/202204241431985.png)
+![image.png](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/202204241431985.png)
 
-![image.png](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/202204241431166.png)
+![image.png](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/202204241431166.png)
 
 
 
@@ -374,7 +374,7 @@
 
 
 
-![image-20220424143920629](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/202204241439677.png)
+![image-20220424143920629](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/202204241439677.png)
 
 ### 4.几个注意点
 
@@ -554,9 +554,9 @@
 </html>
 ```
 
-![image-20220424191908188](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/202204241919251.png)
+![image-20220424191908188](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/202204241919251.png)
 
-![img](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/202204241517235.png)
+![img](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/202204241517235.png)
 
 ### 6.VueComponent
 
@@ -658,7 +658,7 @@
 
 2. 为什么要有这个关系：让组件实例对象vc可以访问到 Vue原型上的属性、方法
 
-![image.png](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/202204242055362.png)
+![image.png](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/202204242055362.png)
 
 ### 8.单文件组件
 
@@ -803,11 +803,11 @@ npm install -g @vue/cli
 
 在demo目录下执行如下命令
 
-![image-20220424215552398](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/202204242155464.png)
+![image-20220424215552398](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/202204242155464.png)
 
 选择Vue2然后回车，结果如下：
 
-![image-20220424215655095](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/202204242156163.png)
+![image-20220424215655095](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/202204242156163.png)
 
 然后执行
 
@@ -818,11 +818,11 @@ npm run serve
 
 结果如下:
 
-![image-20220424220006607](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/202204242200667.png)
+![image-20220424220006607](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/202204242200667.png)
 
 然后在浏览器中输入http://localhost:8080/ :
 
-![image-20220424220103095](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/202204242201222.png)
+![image-20220424220103095](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/202204242201222.png)
 
 
 
@@ -830,7 +830,7 @@ npm run serve
 
 目录结构:
 
-![image-20220424223039602](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/202204242230664.png)
+![image-20220424223039602](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/202204242230664.png)
 
 App.vue
 
@@ -916,13 +916,13 @@ index.html
 npm run serve
 ```
 
-如果报如下错误：![image-20220424223213938](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/202204242232996.png)
+如果报如下错误：![image-20220424223213938](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/202204242232996.png)
 
 解决方法1：
 
 修改vue.config.js
 
-![image-20220424223258549](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/202204242232599.png)
+![image-20220424223258549](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/202204242232599.png)
 
 解决方法2：
 
@@ -932,7 +932,7 @@ npm run serve
 
 运行结果：
 
-![image-20220424223351141](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/202204242233267.png)
+![image-20220424223351141](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/202204242233267.png)
 
 ###  3.render函数
 
@@ -1071,7 +1071,7 @@ export default {
 </style>
 ```
 
-![image-20220425211427237](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/202204252114370.png)
+![image-20220425211427237](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/202204252114370.png)
 
 ## 21.props
 
@@ -1158,7 +1158,7 @@ export default {
 
 ## 22.mixin混入
 
-![image-20220425220344958](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/202204252203014.png)
+![image-20220425220344958](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/202204252203014.png)
 
 School.vue
 
@@ -1267,13 +1267,13 @@ new Vue({
 
 
 
-![image-20220425220222292](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/202204252202387.png)
+![image-20220425220222292](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/202204252202387.png)
 
 ## 23.插件
 
 目录结构：
 
-![image-20220426125542271](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/202204261255418.png)
+![image-20220426125542271](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/202204261255418.png)
 
 main.js
 
@@ -1360,7 +1360,7 @@ export default {
 
 ```
 
-![image-20220426125555130](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/202204261255226.png)
+![image-20220426125555130](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/202204261255226.png)
 
 ## 24.scoped样式
 
@@ -1458,7 +1458,7 @@ export default {
 </style>
 ```
 
-![image-20220426131605315](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/202204261316431.png)
+![image-20220426131605315](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/202204261316431.png)
 
 ## 25.TodoList案例
 
@@ -1486,7 +1486,7 @@ export default {
 
 目录结构:
 
-![image-20220426211934351](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/202204262119435.png)
+![image-20220426211934351](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/202204262119435.png)
 
 App.vue
 
@@ -1889,7 +1889,7 @@ export default {
 </style>
 ```
 
-![image-20220426212133455](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/202204262121552.png)
+![image-20220426212133455](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/202204262121552.png)
 
 ## 26.浏览器本地存储WebStorage
 
@@ -2634,7 +2634,7 @@ export default {
 
 ```
 
-![image-20220428171231720](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/202204281712874.png)
+![image-20220428171231720](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/202204281712874.png)
 
 ### TodoList案例应用全局事件总线
 
@@ -2897,7 +2897,7 @@ li:hover button {
  
 ```
 
-![image-20220428172724872](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/202204281727969.png)
+![image-20220428172724872](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/202204281727969.png)
 
 ## 31.消息订阅与发布
 
@@ -3406,7 +3406,7 @@ li:hover button {
 
 > 1. 作用：在插入、更新或移除 DOM元素时，在合适的时候给元素添加样式类名。
 >
-> 2. 图示：<img src="https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/202204292200202.png" style="width:60%" />
+> 2. 图示：<img src="https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/202204292200202.png" style="width:60%" />
 >
 > 3. 写法：
 >
@@ -3600,7 +3600,7 @@ h1 {
 
 ```
 
-![image-20220429220203267](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/202204292202331.png)
+![image-20220429220203267](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/202204292202331.png)
 
 ## 34.配置代理
 
@@ -3744,7 +3744,7 @@ export default {
 </script>
 ```
 
-![image-20220430222341623](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/202204302223733.png)
+![image-20220430222341623](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/202204302223733.png)
 
 ## 35.Github案例
 
@@ -3925,7 +3925,7 @@ index.html
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <!-- 引入第三方bootstrap -->
     <!-- <link rel="stylesheet" href="<%= BASE_URL %>css/bootstrap.css"> -->
-    <link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
     <!-- 配置网页标题 <%= htmlWebpackPlugin.options.title %>就是package.json中的title   -->
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
@@ -3941,7 +3941,7 @@ index.html
 </html>
 ```
 
-![image-20220501152009511](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/202205011520529.png)
+![image-20220501152009511](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/202205011520529.png)
 
 ## 36.vue-resource
 
@@ -4096,7 +4096,7 @@ video {
 </style>
 ```
 
-![image-20220501160435567](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/202205011604706.png)
+![image-20220501160435567](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/202205011604706.png)
 
 ### 2.具名插槽
 

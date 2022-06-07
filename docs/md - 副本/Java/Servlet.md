@@ -6,7 +6,7 @@
 
 @WebServlet()注解常用解释：
 
-> ![image-20220225193754815](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220225193754815.png)
+> ![image-20220225193754815](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220225193754815.png)
 
 例：
 
@@ -84,11 +84,11 @@ public class RegisterServlet extends HttpServlet {
 }
 ```
 
-![image-20220225200231690](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220225200231690.png)
+![image-20220225200231690](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220225200231690.png)
 
-![image-20220225200251318](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220225200251318.png)
+![image-20220225200251318](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220225200251318.png)
 
-![image-20220225200313042](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220225200313042.png)
+![image-20220225200313042](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220225200313042.png)
 
 #### 2.Post()请求
 
@@ -122,9 +122,9 @@ public class RegisterServlet extends HttpServlet {
 }
 ```
 
-![image-20220225200646459](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220225200646459.png)
+![image-20220225200646459](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220225200646459.png)
 
-![image-20220225200638007](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220225200638007.png)
+![image-20220225200638007](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220225200638007.png)
 
 #### 3.解决中文乱码
 
@@ -213,7 +213,7 @@ public class RegisterServlet extends HttpServlet {
 }
 ```
 
-![image-20220225201638203](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220225201638203.png)
+![image-20220225201638203](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20220225201638203.png)
 
 #### 2.解决返回中文乱码
 

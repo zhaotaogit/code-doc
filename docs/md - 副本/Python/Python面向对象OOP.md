@@ -19,7 +19,7 @@ class Cat:
 tom = Cat()
 ```
 
-![](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210528162622086.png)
+![](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210528162622086.png)
 
 ## 2.在初始化方法内部定义属性
 
@@ -34,7 +34,7 @@ tom = Cat()
 print(tom.name)
 ```
 
-![](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210528162751022.png)
+![](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210528162751022.png)
 
 ## 3.初始化同时设置初始值
 
@@ -49,7 +49,7 @@ tom = Cat('tom')
 print(tom.name)
 ```
 
-![](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210528162751022.png)
+![](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210528162751022.png)
 
 ## 4.内置方法\_\_del__方法和对象生命周期
 
@@ -78,7 +78,7 @@ print(tom.name)
 del tom		# del关键字可以删除一个对象
 ```
 
-![](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210528163536885.png)
+![](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210528163536885.png)
 
 ## 5.内置方法\_\_str__方法定制变量输入信息
 
@@ -100,7 +100,7 @@ del tom
 
 当不自定义\_\_str__方法时，直接打印对象效果为:
 
-![image-20211126221055778](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211126221055778.png)
+![image-20211126221055778](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211126221055778.png)
 
 可以看到打印出来的是**\_\_main__.类名 object at 对象的内存地址**
 
@@ -125,7 +125,7 @@ print(tom)
 del tom
 ```
 
-![image-20210528164052790](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210528164052790.png)打印出了我们设置的返回的内容。
+![image-20210528164052790](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210528164052790.png)打印出了我们设置的返回的内容。
 
 
 
@@ -166,7 +166,7 @@ xiaoming.eat()
 print(xiaoming)
 ```
 
-![image-20210528165213151](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210528165213151.png)
+![image-20210528165213151](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210528165213151.png)
 
 ### 3.多个对象之间互不干扰
 
@@ -205,7 +205,7 @@ xiaomei.run()
 print(xiaomei)
 ```
 
-![image-20210528165547278](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210528165547278.png)
+![image-20210528165547278](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210528165547278.png)
 
 ### 3.实例2-拜访家具
 
@@ -301,7 +301,7 @@ print(xushanduo.gun)
 xushanduo.fire()
 ```
 
-![image-20210528173105378](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210528173105378.png)
+![image-20210528173105378](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210528173105378.png)
 
 ## 7.私有属性和私有方法
 
@@ -321,7 +321,7 @@ xiaomei.secret()
 print(xiaomei.__age)
 ```
 
-![image-20210528174122833](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210528174122833.png)
+![image-20210528174122833](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210528174122833.png)
 
 - 程序运行后发现报了一个错误， 'Women' object has no attribute '__age'，说明age属性不能直接被访问，而可以通过类中方法访问。
 
@@ -342,7 +342,7 @@ xiaomei.secret()
 
 - 上面代码中，我将之前的secret方法名的前面加上了两个下划线，这个方法就变成了私有方法，只有在类中可以调用，而想在类的外面调用就会报错:
 
-![image-20210528174520744](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210528174520744.png)
+![image-20210528174520744](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210528174520744.png)
 
 ### 3.伪私有属性和伪私有方法
 
@@ -360,7 +360,7 @@ xiaomei._Women__secret()
 print(xiaomei._Women__age)
 ```
 
-![image-20210528174708148](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210528174708148.png)
+![image-20210528174708148](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210528174708148.png)
 
 - 当定义一个私有属性时，如__age，python会将它转换为\_Women\_\_age，所有我们可以使用xiaomei._Women__age来访问私有属性。同理，私有方法也是一样。
 
@@ -398,7 +398,7 @@ wangcai.bark()
 
 - 上面的代码中，我们并没有在Dog类中定义eat、drink、run、sleep，但却可以调用，这是因为Dog类继承了Animal的方法。
 
-![image-20210528175658518](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210528175658518.png)
+![image-20210528175658518](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210528175658518.png)
 
 ### 3.继承的传递性
 
@@ -437,7 +437,7 @@ wangcai.fly()
 
 - 上面的程序中Dog类继承了Animal类，XiaoTianQuan类继承了Dog类，这样XiaoTianQuan类就拥有了Animal类和Dog类的所有属性和方法。
 
-![image-20210528180244751](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210528180244751.png)
+![image-20210528180244751](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210528180244751.png)
 
 ### 4.方法的重写
 
@@ -473,7 +473,7 @@ xtq.bark()
 
 - 虽然父类中已经定义了bark方法，但是在XiaoTianQuan类中又重新定义了一个bark方法，当对象调用法法时，会调用自身类的方法。
 
-![image-20210528191518111](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210528191518111.png)
+![image-20210528191518111](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210528191518111.png)
 
 ### 5.扩展父类方法，super()对象调用父类方法
 
@@ -510,7 +510,7 @@ xtq.bark()
 
 - super().bark()调用父类的方法
 
-![image-20210528191952131](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210528191952131.png)
+![image-20210528191952131](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210528191952131.png)
 
 ### 6.使用父类名调用父类方法
 
@@ -548,7 +548,7 @@ xtq.bark()
 
 - Dog.bark(self)即使用父类名调用父类方法
 
-![image-20210528192745016](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210528192745016.png)
+![image-20210528192745016](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210528192745016.png)
 
 ## 8.父类的私有属性和方法
 
@@ -573,7 +573,7 @@ b = B()
 b.demo()
 ```
 
-![image-20210528193738902](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210528193738902.png)
+![image-20210528193738902](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210528193738902.png)
 
 ### 2.通过父类的共有方法间接访问父类的私有方法和属性
 
@@ -601,7 +601,7 @@ b.demo()
 
 - 可以通过父类的共有方法访问父类属性和调用父类方法
 
-![image-20210528194216014](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210528194216014.png)
+![image-20210528194216014](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210528194216014.png)
 
 ## 9.多继承
 
@@ -626,7 +626,7 @@ c.demo()
 
 - 多继承使子类继承所有父类的所有属性和方法。
 
-![image-20210528194523287](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210528194523287.png)
+![image-20210528194523287](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210528194523287.png)
 
 - 若继承的多个类中的方法有重名的情况，会调用存在同名的继承的类的第一个。
 
@@ -658,7 +658,7 @@ print(C.__mro__)
 
 print(C.__mro__)打印一个类的MRO
 
-![image-20210528195505628](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210528195505628.png)
+![image-20210528195505628](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210528195505628.png)
 
 - 输出了一个元组，这个元组代表当对象执行一个属性或者方法时，调用的顺序，先是在自己类中查找，找不到再去第一个父类，接着第二个。
 
@@ -770,7 +770,7 @@ dir(a)
 
 - 可以看到针对传入不同的对象输出的结果是不一样的。
 
-![image-20210528210551765](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210528210551765.png)
+![image-20210528210551765](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210528210551765.png)
 
 
 
@@ -803,7 +803,7 @@ tool3 = Tool('水桶')
 print(Tool.count)
 ```
 
-![image-20210528220426169](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210528220426169.png)
+![image-20210528220426169](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210528220426169.png)
 
 
 
@@ -831,7 +831,7 @@ print(Tool.count)
 print(tool1.count)
 ```
 
-![image-20210528221045134](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210528221045134.png)
+![image-20210528221045134](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210528221045134.png)
 
 运行结果表示: **属性名.类属性** 在一定的情况下是可以实现的。
 
@@ -882,7 +882,7 @@ tool3 = Tool('水桶')
 Tool.show_tool_count()
 ```
 
-![image-20210528232047060](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210528232047060.png)
+![image-20210528232047060](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210528232047060.png)
 
 ## 13.静态方法
 
@@ -929,7 +929,7 @@ Tool.static_method()
 
 - 静态方法可以不用创建对象就可以调用，即用类名直接访问。
 
-![image-20210528232511763](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210528232511763.png)
+![image-20210528232511763](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210528232511763.png)
 
 
 
@@ -959,7 +959,7 @@ user1 = Game('葫芦娃')		# 创建实例对象
 user1.start_game()		# 调用实例方法
 ```
 
-![image-20210528233538393](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210528233538393.png)
+![image-20210528233538393](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210528233538393.png)
 
 
 
@@ -993,7 +993,7 @@ mp3 = MusicPlayer()
 print(mp3)
 ```
 
-![image-20210529111034327](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210529111034327.png)
+![image-20210529111034327](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210529111034327.png)
 
 new方法重写格式如下：
 
@@ -1021,7 +1021,7 @@ p1 = Person()
 print(p1.name)
 ```
 
-![image-20210529111609191](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210529111609191.png)
+![image-20210529111609191](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210529111609191.png)
 
 - p1=Person()该语句主要做了以下工作：
   **首先调用Person的__new__方法，该方法通过object.\_\_new\_\_(cls)创建了Person实例对象，并返回。最后调用了该Person实例对象的\_\_init\_\_方法。**
@@ -1047,7 +1047,7 @@ p1 = Person()
 print(type(p1))
 ```
 
-![image-20210529114107821](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210529114107821.png)
+![image-20210529114107821](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210529114107821.png)
 
 - 由结果得知p1是Dog类的实例，但是有个问题，Python解释器没有自动执行__init__方法，由结果可以看出并没有打印字符串__init__。**若__new__()没有正确返回当前类cls的实例，那__init__()将不会被调用。**
 
@@ -1081,7 +1081,7 @@ print(m2)
 print(m2.name)
 ```
 
-![image-20210529115728934](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210529115728934.png)
+![image-20210529115728934](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210529115728934.png)
 
 - 根据运行结果可以得出，对象的内存地址都是一样的，并没有分配多余空间。
 - 但是初始化方法执行了多次。
@@ -1110,6 +1110,6 @@ m2 = MusicPlayer('m2')
 print(m2)
 ```
 
-![image-20210529120137952](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210529120137952.png)
+![image-20210529120137952](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20210529120137952.png)
 
 - 只需在类中再创建一个类属性，在初始化方法中根据这个类属性的值判断是否执行。

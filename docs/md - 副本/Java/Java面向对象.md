@@ -416,7 +416,7 @@ public class TestStudent {
 }
 ```
 
-![image-20211121130608150](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211121130608150.png)
+![image-20211121130608150](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211121130608150.png)
 
 这个程序虽然非常简单，但却是我们第一次使用两个类来完成程序。其中 `TestStudent` 类是测试类，测试类中包含 `main` 方法，提供程序运行的入口。在 `main` 方法内，创建 `Student` 类的对象并给对象属性赋值，然后调用对象的方法。
 
@@ -451,7 +451,7 @@ class Student2 {
 }
 ```
 
-![image-20211121131213212](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211121131213212.png)
+![image-20211121131213212](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211121131213212.png)
 
 在上面的例子中，对对象的属性都是先赋值后使用，如果没有赋值就直接使用对象的属性，会有什么样的结果呢？
 
@@ -477,7 +477,7 @@ public class TestStudent {
 }
 ```
 
-![image-20211121131510640](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211121131510640.png)
+![image-20211121131510640](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211121131510640.png)
 
 从程序运行结果可以看出，在未给对象属性赋值前使用属性时，属性使用的都是对应数据类型的默认值，即如果该属性为引用数据类型，其初始默认值为 null，如果该属性是 int 型，其初始默认值为 0。
 
@@ -573,9 +573,9 @@ class Student {
 }
 ```
 
-![image-20211121134200542](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211121134200542.png)
+![image-20211121134200542](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211121134200542.png)
 
-![image-20211121134217478](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211121134217478.png)
+![image-20211121134217478](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211121134217478.png)
 
 ### 2.初识封装
 
@@ -635,7 +635,7 @@ public class TestStudent3 {
 }
 ```
 
-![image-20211121135113210](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211121135113210.png)
+![image-20211121135113210](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211121135113210.png)
 
 实际上，使用 setter 和 getter 的解决方案用到了一个程序设计的基本原则：逻辑代码不能写在变量中，而必须写在方法或代码块中。
 
@@ -695,7 +695,7 @@ public class TestStudent1 {
 
 ```
 
-![image-20211121141633416](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211121141633416.png)
+![image-20211121141633416](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211121141633416.png)
 
 ### 4.this关键字
 
@@ -853,7 +853,7 @@ public class TestStudent4 {
 
 ```
 
-![image-20211121143637588](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211121143637588.png)
+![image-20211121143637588](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211121143637588.png)
 
 构造方法有一个约定：如果在定义类时没有定义构造方法，编译系统会自动插入一个无参数的默认构造方法，这个构造方法不执行任何代码。如果在定义类时定义了有参的构造方法，没有显式地定义无参的构造方法，那么在使用构造方法创建类对象时，则不能使用默认的无参构造方法。
 
@@ -863,7 +863,7 @@ public class TestStudent4 {
 
 对象的初始化，实际就是先在堆内存中申请一块用于存放对象属性值的空间，然后再给这些属性值赋上默认值、程序员期望的数据或者用户指定的数据。当堆内存中的这块空间有了值以后，再在栈空间中申请一块空间并存放引用变量，然后用栈中的引用变量指向堆中的对象，最终就可以通过栈中的引用变量访问或者修改堆中的对象了，如图所示。
 
-![图片描述](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/a52bd58b463cfe98caf9b39735b00a2a-0)
+![图片描述](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/a52bd58b463cfe98caf9b39735b00a2a-0)
 
 下面我们结合代码，分析对象初始化过程中内存演变的细节。
 
@@ -922,11 +922,11 @@ public class TestStudent5 {
 
 1. `Student2 temp= new Student2();`执行时，首先需要在堆内存中申请空间，用于存放对象的实例，这片空间上成员变量的值全部为默认值：name 的值是 null、age 的值是 0……，如图所示。
 
-![图片描述](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/3b1d455c641443828bc109ede4544c83-0)
+![图片描述](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/3b1d455c641443828bc109ede4544c83-0)
 
 1. 紧接着，执行声明初始化（由设计该类的开发者指定），例如在 `Student2` 类中`private int age = -1;`代表程序员希望 age 属性用值-1 覆盖默认值，如图所示。
 
-![图片描述](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/280c2be5a7e237b5ec4f52079256dcba-0)
+![图片描述](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/280c2be5a7e237b5ec4f52079256dcba-0)
 
 3.初始化块初始化。
 
@@ -948,15 +948,15 @@ public class TestStudent5 {
 }
 ```
 
-![图片描述](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/1b9536540928bd247b6911a4f0207daa-0)
+![图片描述](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/1b9536540928bd247b6911a4f0207daa-0)
 
 执行程序后，运行结果如图所示。大家可以通过运行结果，分析刚才说的初始化块的执行时机。
 
-![image-20211121151010497](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211121151010497.png)
+![image-20211121151010497](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211121151010497.png)
 
 1. 构造器初始化，例如`Student2 temp = new Student2("王云", 22, 1, 4);`，在默认初始化，声明初始化，初始化块之后，再此用构造器覆盖各个属性的值，如图所示。
 
-![图片描述](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/a1eadb542a26b2ff6252e679101ed970-0)
+![图片描述](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/a1eadb542a26b2ff6252e679101ed970-0)
 
 ### 6.重载基本语法
 
@@ -1045,4 +1045,4 @@ public class TestStudent6 {
 }
 ```
 
-![image-20211121152059252](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211121152059252.png)
+![image-20211121152059252](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211121152059252.png)
